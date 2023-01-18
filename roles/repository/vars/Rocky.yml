@@ -1,0 +1,24 @@
+---
+utils_repo:
+  - cairo
+  - cups-libs
+  - libSM
+  - unzip
+  - which
+  - fontconfig
+  - dejavu-fonts-common
+  - fontpackages-filesystem
+  - freetype
+  - libpng
+  - dejavu-sans-fonts
+
+utils_storage:
+  nfs:
+    - nfs-utils
+  cifs:
+    - cifs-utils
+  glusterfs:
+    - glusterfs-fuse
+  gfs2:
+    - gfs2-utils
+  tmpfs: []
